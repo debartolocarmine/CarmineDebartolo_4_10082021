@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 		<meta name="robots" content="all" />
 
-		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="shortcut icon" href="img/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="style.css" >
 	
@@ -35,7 +35,13 @@
 				<div class="container bloc-sm">
 					<nav class="navbar row">
 						<div class="navbar-header">
-							<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
+							<a class="navbar-brand" href="index.html">
+								<picture>
+									<source srcset="img/la-chouette-agence.webp" type="image/webp">
+									<source srcset="img/la-chouette-agence.png" type="image/jpg">
+									<img src="img/la-chouette-agence.png" alt="Lyon web design logo" height="40" />
+								</picture>
+							</a>
 							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 								<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 							</button>
@@ -65,7 +71,7 @@
 							<h1 class="text-center hero-bloc-text tc-white">
 								Parlons web design !
 							</h1>
-							<p class="text-center mg-lg tc-white tight-width-whitespace">
+							<p class="text-center mg-lg tc-white tight-width-whitespace ">
 								Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 								Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 							</p>
@@ -125,7 +131,7 @@
 			<!-- bloc-7 END -->
 
 			<!-- ScrollToTop Button -->
-			<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+			<a class="bloc-button btn btn-d scrollToTop" title="Retour en haut de la page" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 			<!-- ScrollToTop Button END-->
 
 
@@ -164,7 +170,6 @@
 				</div>
 			</div>
 			<!-- Footer - bloc-8 END -->
-
 
 		</div>
 		<!-- Principal conteneur END -->
